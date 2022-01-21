@@ -9,7 +9,7 @@ function getNumberInfo() {
         txt += `Invalid input.  Please enter a whole number between 1 and 10000.`
     } else {
         txt += `You have entered the number ${num}. <p>`;
-        txt += `Its factors: ${factors(num)}`;
+        txt += `Factors: ${factors(num)}.`;
     }
 
     // Display Information in the Browser
