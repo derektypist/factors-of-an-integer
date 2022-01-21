@@ -15,3 +15,14 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+// Function to Get the Factors
+function factors(num) {
+    let result = [];
+    for (let i=1; i<=num; i++) {
+        if (num % i==0) {
+            result.push(i);
+        }
+    }
+    return result;
+}
