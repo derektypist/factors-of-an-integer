@@ -6,10 +6,10 @@ function getNumberInfo() {
     let num = document.getElementById("mynumber").value;
     // Check if number is valid
     if (isNaN(num) || num.toString().length == 0 || num<1 || num>10000 || !Number.isInteger(Number(num))) {
-        txt += `Invalid input.  Please enter a whole number between 1 and 10000.`
+        txt += `Invalid input.  Please enter a whole number between 1 and 10000.`;
     } else {
         txt += `You have entered the number ${num}. <p>`;
-        txt += `Factors: ${factors(num)}.`;
+        txt += `Its Factors: ${factors(num)}.`;
     }
 
     // Display Information in the Browser
