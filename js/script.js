@@ -8,7 +8,7 @@ function getNumberInfo() {
     if (isNaN(num) || num.toString().length == 0 || num<1 || num>10000 || !Number.isInteger(Number(num))) {
         txt += `Invalid input.  Please enter a whole number between 1 and 10000.`
     } else {
-        txt += `You have entered the number ${num}`;
+        txt += `You have entered the number ${num}. <p>`;
         txt += `Its factors: ${factors(num)}`;
     }
 
