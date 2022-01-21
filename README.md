@@ -23,7 +23,7 @@ As a user, I can clear the information, by clicking on the Reset Button.
 
 **Information Architecture**
 
-The number is an integer.  The factors is an integer in array form.
+The number is an integer beteen 1 and 10000.  The factors are positive integers between 1 and 10000 and are in array form.
 
 ## Features
 
