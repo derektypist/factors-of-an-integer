@@ -10,4 +10,43 @@ Enter a whole number between 1 and 10000 (e.g. 6) and then click on the Submit B
 
 **User Stories**
 
-As a user, if I do not enter anything I get the error message `Invalid input.  Please enter a whole number between 1 and 10000.
+As a user, if I do not enter anything I get the error message `Invalid input.  Please enter a whole number between 1 and 10000.`.
+
+This also applies if I enter text (e.g. cat), a number that is not an integer, a number less than 1 or greater than 10000.
+
+As a user, assuming that my input is valid, I should get the following:
+
+    You have entered the number 6.
+    Its factors: 1,2,3,6.
+
+As a user, I can clear the information, by clicking on the Reset Button.
+
+**Information Architecture**
+
+The number is an integer.  The factors is an integer in array form.
+
+## Features
+
+Validation of Numeric Input.  Allows the user to enter a number to obtain its factors.  This includes 1 and the number itself.
+
+## Technologies
+
+Uses HTML5, CSS3, Bootstrap 5.1.3, Google Fonts and JavaScript.
+
+## Testing
+
+Make sure all the user stories have been met.
+
+## Deployment
+
+On [GitHub Pages](https://derektypist.github.io/factors-of-an-integer) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [FreeCodeCamp](https://www.freecodecamp.org)
